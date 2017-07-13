@@ -1,0 +1,16 @@
+PODS:
+  - BDCacheCellHeight (0.1.0)
+
+DEPENDENCIES:
+  - BDCacheCellHeight (from `../`)
+
+EXTERNAL SOURCES:
+  BDCacheCellHeight:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BDCacheCellHeight: 88494738e66a467563c79cfb7289e8da270cdcac
+
+PODFILE CHECKSUM: b5b04ad40fd074af440df72a5c4dd7b969850134
+
+COCOAPODS: 1.2.1

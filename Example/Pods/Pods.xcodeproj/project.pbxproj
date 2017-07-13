@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0525C691B81C0E0FBB1C74F75820DE87 /* UITableView+BDIndexPathHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D6C5A3E116992AC185413DFF3BD8D10 /* UITableView+BDIndexPathHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF8F9AAEEF1ABD0D1499FC0DA0A4FBF /* UITableView+BDCellHeightCacheDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = A73A4FA79EBD06A86A1813B2C2066354 /* UITableView+BDCellHeightCacheDebug.m */; };
+		398C3B1B455D292247A9158B540BE6D2 /* Pods-BDCacheCellHeight_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB668EDE7CAF04D4CFE562386DD57091 /* Pods-BDCacheCellHeight_Example-dummy.m */; };
+		46F2FC3D65EAE4056A9D12CA130AC93C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		538171B2EC06C936C283050C5B6384DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5775FD531C8EB3E7B60FECF4E3F2B7C4 /* BDCacheCellHeight-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BCBFAE855912891F4E1FF6ADE218904 /* BDCacheCellHeight-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		651556052B7B7D5C0A176F6807ED7F16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AD725D7ED3366B9F3BAD2154A940B9AF /* Pods-BDCacheCellHeight_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C276B5D04F9CB4D43BC7AAC86216C90 /* Pods-BDCacheCellHeight_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B50E8FB19F980C5469EC9F6E900A1A22 /* Pods-BDCacheCellHeight_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFDEBA6F8723A2BC06CE4A0DE064C4 /* Pods-BDCacheCellHeight_Tests-dummy.m */; };
+		BF79AB1EE00E32F342FF8962B40290F6 /* UITableView+BDCellHeightCacheDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = B42AE4A0E2FF7F9B638573B414B747CA /* UITableView+BDCellHeightCacheDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C40CE63127A824A10F371B1FD295A48B /* Pods-BDCacheCellHeight_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA51734B447D63E7256131B8B5AE20E /* Pods-BDCacheCellHeight_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA9DC8A3078043B9F1DECF2275C605E3 /* BDCacheCellHeight-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE12D05D94992A24770D9BAADEA538E7 /* BDCacheCellHeight-dummy.m */; };
+		EE1D26C58C120BFF04B5F40A8CED18B6 /* UITableView+BDIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9451930320C829690FA6B69D0ADC9B /* UITableView+BDIndexPathHeightCache.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCF54E3787B7F1B6848B60513B9E4125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E749440F506A79E8233F00EA6BEF95D;
+			remoteInfo = BDCacheCellHeight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EFFDEBA6F8723A2BC06CE4A0DE064C4 /* Pods-BDCacheCellHeight_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BDCacheCellHeight_Tests-dummy.m"; sourceTree = "<group>"; };
+		156AEE9046FF460CBD1BAB2128E726A4 /* Pods-BDCacheCellHeight_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BDCacheCellHeight_Example.release.xcconfig"; sourceTree = "<group>"; };
+		196E144C38B9AAD4C96D1F5C182A1E63 /* Pods-BDCacheCellHeight_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BDCacheCellHeight_Tests.modulemap"; sourceTree = "<group>"; };
+		1BCBFAE855912891F4E1FF6ADE218904 /* BDCacheCellHeight-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BDCacheCellHeight-umbrella.h"; sourceTree = "<group>"; };
+		1DDD734DE5828E06DC6D3BAAD4FD2D25 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42CDCF35864CCAA497C054F5029C4C50 /* BDCacheCellHeight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BDCacheCellHeight.framework; path = BDCacheCellHeight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48289D3489293C4BB35B5765865847E9 /* Pods-BDCacheCellHeight_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BDCacheCellHeight_Tests-resources.sh"; sourceTree = "<group>"; };
+		4AA00D0B80FE3FE497C1AFE5287D3ADA /* Pods-BDCacheCellHeight_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BDCacheCellHeight_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4D6C5A3E116992AC185413DFF3BD8D10 /* UITableView+BDIndexPathHeightCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+BDIndexPathHeightCache.h"; sourceTree = "<group>"; };
+		5ABBDF9A29C82E99D8EA6C960227FE8D /* BDCacheCellHeight-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BDCacheCellHeight-prefix.pch"; sourceTree = "<group>"; };
+		6475541D141C1ABEA914D47010A30835 /* Pods-BDCacheCellHeight_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BDCacheCellHeight_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78A450A5E6B831025398E98B88B5CA7B /* Pods-BDCacheCellHeight_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BDCacheCellHeight_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7BCA247411E08CA665F3892362B79FD6 /* Pods-BDCacheCellHeight_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BDCacheCellHeight_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7C276B5D04F9CB4D43BC7AAC86216C90 /* Pods-BDCacheCellHeight_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BDCacheCellHeight_Example-umbrella.h"; sourceTree = "<group>"; };
+		7F3B387FE23A9F4D1534FAA049889368 /* Pods_BDCacheCellHeight_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BDCacheCellHeight_Tests.framework; path = "Pods-BDCacheCellHeight_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CFD2B7E77BC6529826AB9F065222080 /* Pods-BDCacheCellHeight_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BDCacheCellHeight_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		90C6A65DBC50C8D4FA4FFF9074266EAA /* Pods-BDCacheCellHeight_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BDCacheCellHeight_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95945E0781988366CC9A6285FC0BF6AE /* Pods-BDCacheCellHeight_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BDCacheCellHeight_Example.modulemap"; sourceTree = "<group>"; };
+		966901AB2B5BD58806C3E3F4EEAD4E36 /* BDCacheCellHeight.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BDCacheCellHeight.modulemap; sourceTree = "<group>"; };
+		968E570DE703B44C66746EA2B7FDF19C /* Pods_BDCacheCellHeight_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BDCacheCellHeight_Example.framework; path = "Pods-BDCacheCellHeight_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F55BE6716503753575476A1398CEFD2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A06EDDD157079077B196C8F49FB719A5 /* Pods-BDCacheCellHeight_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BDCacheCellHeight_Example-resources.sh"; sourceTree = "<group>"; };
+		A3F91DF552173162D888FB08B258BCBA /* Pods-BDCacheCellHeight_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BDCacheCellHeight_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A73A4FA79EBD06A86A1813B2C2066354 /* UITableView+BDCellHeightCacheDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+BDCellHeightCacheDebug.m"; sourceTree = "<group>"; };
+		ADA51734B447D63E7256131B8B5AE20E /* Pods-BDCacheCellHeight_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BDCacheCellHeight_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AFB66EF6A25A38CECB79F857E62B974E /* Pods-BDCacheCellHeight_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BDCacheCellHeight_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B0912C3B6B8AE3F03D78E829528FAFD4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B42AE4A0E2FF7F9B638573B414B747CA /* UITableView+BDCellHeightCacheDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+BDCellHeightCacheDebug.h"; sourceTree = "<group>"; };
+		BA34B578F03B9D2A1B810DD467303F9F /* BDCacheCellHeight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BDCacheCellHeight.xcconfig; sourceTree = "<group>"; };
+		BC9451930320C829690FA6B69D0ADC9B /* UITableView+BDIndexPathHeightCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+BDIndexPathHeightCache.m"; sourceTree = "<group>"; };
+		DAADBEAB1DC64F0DF341831FF1891276 /* Pods-BDCacheCellHeight_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BDCacheCellHeight_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB668EDE7CAF04D4CFE562386DD57091 /* Pods-BDCacheCellHeight_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BDCacheCellHeight_Example-dummy.m"; sourceTree = "<group>"; };
+		DE12D05D94992A24770D9BAADEA538E7 /* BDCacheCellHeight-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BDCacheCellHeight-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72E199A6B6229F5C82F347249F55A0BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F2FC3D65EAE4056A9D12CA130AC93C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BF2F89A913FF14E2B1925C6D44F337E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538171B2EC06C936C283050C5B6384DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51914CADB0DB71F96313185143BD4C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651556052B7B7D5C0A176F6807ED7F16 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		140381F8253536DF8833C8E956351D8A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				966901AB2B5BD58806C3E3F4EEAD4E36 /* BDCacheCellHeight.modulemap */,
+				BA34B578F03B9D2A1B810DD467303F9F /* BDCacheCellHeight.xcconfig */,
+				DE12D05D94992A24770D9BAADEA538E7 /* BDCacheCellHeight-dummy.m */,
+				5ABBDF9A29C82E99D8EA6C960227FE8D /* BDCacheCellHeight-prefix.pch */,
+				1BCBFAE855912891F4E1FF6ADE218904 /* BDCacheCellHeight-umbrella.h */,
+				B0912C3B6B8AE3F03D78E829528FAFD4 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BDCacheCellHeight";
+			sourceTree = "<group>";
+		};
+		2D6EDA5911A8501AC5C0872BAC3F4477 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B42AE4A0E2FF7F9B638573B414B747CA /* UITableView+BDCellHeightCacheDebug.h */,
+				A73A4FA79EBD06A86A1813B2C2066354 /* UITableView+BDCellHeightCacheDebug.m */,
+				4D6C5A3E116992AC185413DFF3BD8D10 /* UITableView+BDIndexPathHeightCache.h */,
+				BC9451930320C829690FA6B69D0ADC9B /* UITableView+BDIndexPathHeightCache.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2EC50521706CE33C7EA1CC2D78E5D1E2 /* Pods-BDCacheCellHeight_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1DDD734DE5828E06DC6D3BAAD4FD2D25 /* Info.plist */,
+				95945E0781988366CC9A6285FC0BF6AE /* Pods-BDCacheCellHeight_Example.modulemap */,
+				8CFD2B7E77BC6529826AB9F065222080 /* Pods-BDCacheCellHeight_Example-acknowledgements.markdown */,
+				A3F91DF552173162D888FB08B258BCBA /* Pods-BDCacheCellHeight_Example-acknowledgements.plist */,
+				DB668EDE7CAF04D4CFE562386DD57091 /* Pods-BDCacheCellHeight_Example-dummy.m */,
+				AFB66EF6A25A38CECB79F857E62B974E /* Pods-BDCacheCellHeight_Example-frameworks.sh */,
+				A06EDDD157079077B196C8F49FB719A5 /* Pods-BDCacheCellHeight_Example-resources.sh */,
+				7C276B5D04F9CB4D43BC7AAC86216C90 /* Pods-BDCacheCellHeight_Example-umbrella.h */,
+				7BCA247411E08CA665F3892362B79FD6 /* Pods-BDCacheCellHeight_Example.debug.xcconfig */,
+				156AEE9046FF460CBD1BAB2128E726A4 /* Pods-BDCacheCellHeight_Example.release.xcconfig */,
+			);
+			name = "Pods-BDCacheCellHeight_Example";
+			path = "Target Support Files/Pods-BDCacheCellHeight_Example";
+			sourceTree = "<group>";
+		};
+		4B6F0121894468966A008AACBCB5A3C4 /* Pods-BDCacheCellHeight_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9F55BE6716503753575476A1398CEFD2 /* Info.plist */,
+				196E144C38B9AAD4C96D1F5C182A1E63 /* Pods-BDCacheCellHeight_Tests.modulemap */,
+				DAADBEAB1DC64F0DF341831FF1891276 /* Pods-BDCacheCellHeight_Tests-acknowledgements.markdown */,
+				6475541D141C1ABEA914D47010A30835 /* Pods-BDCacheCellHeight_Tests-acknowledgements.plist */,
+				0EFFDEBA6F8723A2BC06CE4A0DE064C4 /* Pods-BDCacheCellHeight_Tests-dummy.m */,
+				78A450A5E6B831025398E98B88B5CA7B /* Pods-BDCacheCellHeight_Tests-frameworks.sh */,
+				48289D3489293C4BB35B5765865847E9 /* Pods-BDCacheCellHeight_Tests-resources.sh */,
+				ADA51734B447D63E7256131B8B5AE20E /* Pods-BDCacheCellHeight_Tests-umbrella.h */,
+				90C6A65DBC50C8D4FA4FFF9074266EAA /* Pods-BDCacheCellHeight_Tests.debug.xcconfig */,
+				4AA00D0B80FE3FE497C1AFE5287D3ADA /* Pods-BDCacheCellHeight_Tests.release.xcconfig */,
+			);
+			name = "Pods-BDCacheCellHeight_Tests";
+			path = "Target Support Files/Pods-BDCacheCellHeight_Tests";
+			sourceTree = "<group>";
+		};
+		72C818820D5705D1606B9C2872810872 /* BDCacheCellHeight */ = {
+			isa = PBXGroup;
+			children = (
+				E3C380E4B1909374781EF1949E395D77 /* BDCacheCellHeight */,
+				140381F8253536DF8833C8E956351D8A /* Support Files */,
+			);
+			name = BDCacheCellHeight;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				DA6918FA3DC6737EBA67B0B46F4FA778 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E57AEA90DCB53CEF16464B44D42922F6 /* Products */,
+				DD689DED3D509412098F0556C1553641 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DA6918FA3DC6737EBA67B0B46F4FA778 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72C818820D5705D1606B9C2872810872 /* BDCacheCellHeight */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DD689DED3D509412098F0556C1553641 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EC50521706CE33C7EA1CC2D78E5D1E2 /* Pods-BDCacheCellHeight_Example */,
+				4B6F0121894468966A008AACBCB5A3C4 /* Pods-BDCacheCellHeight_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E3C380E4B1909374781EF1949E395D77 /* BDCacheCellHeight */ = {
+			isa = PBXGroup;
+			children = (
+				2D6EDA5911A8501AC5C0872BAC3F4477 /* Classes */,
+			);
+			name = BDCacheCellHeight;
+			path = BDCacheCellHeight;
+			sourceTree = "<group>";
+		};
+		E57AEA90DCB53CEF16464B44D42922F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42CDCF35864CCAA497C054F5029C4C50 /* BDCacheCellHeight.framework */,
+				968E570DE703B44C66746EA2B7FDF19C /* Pods_BDCacheCellHeight_Example.framework */,
+				7F3B387FE23A9F4D1534FAA049889368 /* Pods_BDCacheCellHeight_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0DC52FBFF889D01EAE33C63703095C25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5775FD531C8EB3E7B60FECF4E3F2B7C4 /* BDCacheCellHeight-umbrella.h in Headers */,
+				BF79AB1EE00E32F342FF8962B40290F6 /* UITableView+BDCellHeightCacheDebug.h in Headers */,
+				0525C691B81C0E0FBB1C74F75820DE87 /* UITableView+BDIndexPathHeightCache.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298EBDCF10918A2CC8E40373609BB56E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD725D7ED3366B9F3BAD2154A940B9AF /* Pods-BDCacheCellHeight_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5AC700F8E174A82DCC288A170EA87E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40CE63127A824A10F371B1FD295A48B /* Pods-BDCacheCellHeight_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2AF0BC479C7EFDEDB30DC50AE12510B9 /* Pods-BDCacheCellHeight_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A465F9F19B56E9F500E22E76B61632E2 /* Build configuration list for PBXNativeTarget "Pods-BDCacheCellHeight_Tests" */;
+			buildPhases = (
+				7DBDCF375F6F0C43A61D82CE9A8E81CF /* Sources */,
+				C51914CADB0DB71F96313185143BD4C4 /* Frameworks */,
+				FB5AC700F8E174A82DCC288A170EA87E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BDCacheCellHeight_Tests";
+			productName = "Pods-BDCacheCellHeight_Tests";
+			productReference = 7F3B387FE23A9F4D1534FAA049889368 /* Pods_BDCacheCellHeight_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E749440F506A79E8233F00EA6BEF95D /* BDCacheCellHeight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CC49854FB0349DDD1C4ECE2473D6B86 /* Build configuration list for PBXNativeTarget "BDCacheCellHeight" */;
+			buildPhases = (
+				2C04706B6E6E8F12606C1A4056C520C1 /* Sources */,
+				72E199A6B6229F5C82F347249F55A0BA /* Frameworks */,
+				0DC52FBFF889D01EAE33C63703095C25 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BDCacheCellHeight;
+			productName = BDCacheCellHeight;
+			productReference = 42CDCF35864CCAA497C054F5029C4C50 /* BDCacheCellHeight.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A513B934EA5125B64217218A78C508F0 /* Pods-BDCacheCellHeight_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 761991D9EECDAC79377C3078F9CB46E8 /* Build configuration list for PBXNativeTarget "Pods-BDCacheCellHeight_Example" */;
+			buildPhases = (
+				9D6B11B01216CB13F764A67686236EA4 /* Sources */,
+				8BF2F89A913FF14E2B1925C6D44F337E /* Frameworks */,
+				298EBDCF10918A2CC8E40373609BB56E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				001A03D0110936D2B3D1280F9F5E2599 /* PBXTargetDependency */,
+			);
+			name = "Pods-BDCacheCellHeight_Example";
+			productName = "Pods-BDCacheCellHeight_Example";
+			productReference = 968E570DE703B44C66746EA2B7FDF19C /* Pods_BDCacheCellHeight_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E57AEA90DCB53CEF16464B44D42922F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E749440F506A79E8233F00EA6BEF95D /* BDCacheCellHeight */,
+				A513B934EA5125B64217218A78C508F0 /* Pods-BDCacheCellHeight_Example */,
+				2AF0BC479C7EFDEDB30DC50AE12510B9 /* Pods-BDCacheCellHeight_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C04706B6E6E8F12606C1A4056C520C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9DC8A3078043B9F1DECF2275C605E3 /* BDCacheCellHeight-dummy.m in Sources */,
+				2BF8F9AAEEF1ABD0D1499FC0DA0A4FBF /* UITableView+BDCellHeightCacheDebug.m in Sources */,
+				EE1D26C58C120BFF04B5F40A8CED18B6 /* UITableView+BDIndexPathHeightCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DBDCF375F6F0C43A61D82CE9A8E81CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50E8FB19F980C5469EC9F6E900A1A22 /* Pods-BDCacheCellHeight_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D6B11B01216CB13F764A67686236EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398C3B1B455D292247A9158B540BE6D2 /* Pods-BDCacheCellHeight_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		001A03D0110936D2B3D1280F9F5E2599 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BDCacheCellHeight;
+			target = 7E749440F506A79E8233F00EA6BEF95D /* BDCacheCellHeight */;
+			targetProxy = FCF54E3787B7F1B6848B60513B9E4125 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		056C426070908812C2B7F0E27ABF4DB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA34B578F03B9D2A1B810DD467303F9F /* BDCacheCellHeight.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BDCacheCellHeight/BDCacheCellHeight-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BDCacheCellHeight/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BDCacheCellHeight/BDCacheCellHeight.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BDCacheCellHeight;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		717B545DF5C69109F00FA657A43FAE6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA34B578F03B9D2A1B810DD467303F9F /* BDCacheCellHeight.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BDCacheCellHeight/BDCacheCellHeight-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BDCacheCellHeight/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BDCacheCellHeight/BDCacheCellHeight.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BDCacheCellHeight;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACC09C8595D95509D0707400C8345682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BCA247411E08CA665F3892362B79FD6 /* Pods-BDCacheCellHeight_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BDCacheCellHeight_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BDCacheCellHeight_Example/Pods-BDCacheCellHeight_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BDCacheCellHeight_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BEA7D47CC85327C56582A6FC94881A2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA00D0B80FE3FE497C1AFE5287D3ADA /* Pods-BDCacheCellHeight_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BDCacheCellHeight_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BDCacheCellHeight_Tests/Pods-BDCacheCellHeight_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BDCacheCellHeight_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DABFE6B4DFDF45D40A3B394263F6EBEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90C6A65DBC50C8D4FA4FFF9074266EAA /* Pods-BDCacheCellHeight_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BDCacheCellHeight_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BDCacheCellHeight_Tests/Pods-BDCacheCellHeight_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BDCacheCellHeight_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F163144094B0FE52B5BF21B4D262ADA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 156AEE9046FF460CBD1BAB2128E726A4 /* Pods-BDCacheCellHeight_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BDCacheCellHeight_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BDCacheCellHeight_Example/Pods-BDCacheCellHeight_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BDCacheCellHeight_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CC49854FB0349DDD1C4ECE2473D6B86 /* Build configuration list for PBXNativeTarget "BDCacheCellHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				717B545DF5C69109F00FA657A43FAE6F /* Debug */,
+				056C426070908812C2B7F0E27ABF4DB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		761991D9EECDAC79377C3078F9CB46E8 /* Build configuration list for PBXNativeTarget "Pods-BDCacheCellHeight_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC09C8595D95509D0707400C8345682 /* Debug */,
+				F163144094B0FE52B5BF21B4D262ADA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A465F9F19B56E9F500E22E76B61632E2 /* Build configuration list for PBXNativeTarget "Pods-BDCacheCellHeight_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABFE6B4DFDF45D40A3B394263F6EBEB /* Debug */,
+				BEA7D47CC85327C56582A6FC94881A2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

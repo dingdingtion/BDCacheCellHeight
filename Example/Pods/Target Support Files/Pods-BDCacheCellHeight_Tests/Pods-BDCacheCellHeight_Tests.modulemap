@@ -1,0 +1,6 @@
+framework module Pods_BDCacheCellHeight_Tests {
+  umbrella header "Pods-BDCacheCellHeight_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

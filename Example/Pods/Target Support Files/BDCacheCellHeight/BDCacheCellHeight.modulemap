@@ -1,0 +1,6 @@
+framework module BDCacheCellHeight {
+  umbrella header "BDCacheCellHeight-umbrella.h"
+
+  export *
+  module * { export * }
+}

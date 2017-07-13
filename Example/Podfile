@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BDCacheCellHeight_Example' do
+  pod 'BDCacheCellHeight', :path => '../'
+
+  target 'BDCacheCellHeight_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
