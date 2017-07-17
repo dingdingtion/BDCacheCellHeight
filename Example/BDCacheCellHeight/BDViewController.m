@@ -7,7 +7,7 @@
 //
 
 #import "BDViewController.h"
-#import <BDCacheCellHeight/UITableView+BDIndexPathHeightCache.h>
+//#import <BDCacheCellHeight/UITableView+BDIndexPathHeightCache.h>
 #import "BDNews.h"
 #import "BDNewCell.h"
 
@@ -29,8 +29,8 @@
     [self.view addSubview:self.tableView];
     
     
-    self.tableView.bd_debugLogEnabled = YES;
-    [self.tableView startHeightCache];
+//    self.tableView.bd_debugLogEnabled = YES;
+//    [self.tableView startHeightCache];
 
     
     [self buildTestDataThen:^{

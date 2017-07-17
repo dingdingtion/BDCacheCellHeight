@@ -11,6 +11,11 @@
 
 @interface BDIndexPathHeightCache : NSObject
 
+
+@property (nonatomic, assign) BOOL automaticallyInvalidateEnabled;
+
+
+
 - (BOOL)existsHeightAtIndexPath:(NSIndexPath *)indexPath;
 - (void)cacheHeight:(CGFloat)height byIndexPath:(NSIndexPath *)indexPath;
 - (CGFloat)heightForIndexPath:(NSIndexPath *)indexPath;

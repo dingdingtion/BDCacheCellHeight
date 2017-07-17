@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BDCacheCellHeight'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = '自动缓存 cell 的高度'
 
 # This description is used to generate tags and improve search results.

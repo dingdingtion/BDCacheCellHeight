@@ -11,6 +11,7 @@
 
 @interface BDIndexPathHeightCache ()
 
+
 @property (nonatomic, strong) NSMutableDictionary *pathHeightCacheDic;
 
 @end
@@ -71,6 +72,134 @@
 
 
 @implementation UITableView (BDIndexPathHeightCache)
+
++ (void)load
+{
+    SEL selectors[] = {
+    
+        @selector(reloadData),
+        @selector(insertSections:withRowAnimation:),
+        @selector(deleteSections:withRowAnimation:),
+        @selector(reloadSections:withRowAnimation:),
+        @selector(moveSection:toSection:),
+        @selector(insertRowsAtIndexPaths:withRowAnimation:),
+        @selector(deleteRowsAtIndexPaths:withRowAnimation:),
+        @selector(reloadRowsAtIndexPaths:withRowAnimation:),
+        @selector(moveRowAtIndexPath:toIndexPath:)
+    
+    };
+    
+    
+    for (NSUInteger index = 0; index < sizeof(selectors) / sizeof(SEL); ++index) {
+        
+        SEL originalSelector = selectors[index];
+        SEL swizzledSelector = NSSelectorFromString([@"bd_" stringByAppendingString:NSStringFromSelector(originalSelector)]);
+        
+        Method originalMathod = class_getInstanceMethod(self, originalSelector);
+        Method swizzledMethod = class_getInstanceMethod(self, swizzledSelector);
+        
+        method_exchangeImplementations(originalMathod, swizzledMethod);
+        
+    }
+}
+
+- (void)bd_reloadData{
+    
+    if (self.bd_indexPathHeightCache.automaticallyInvalidateEnabled == YES) {
+        [self.bd_indexPathHeightCache invalidateAllHeightCache];
+    }
+    
+    [self bd_reloadData];
+}
+
+- (void)bd_insertSections:(NSIndexSet *)sections withRowAnimation:(UITableViewRowAnimation)animation{
+    
+    if (self.bd_indexPathHeightCache.automaticallyInvalidateEnabled == YES) {
+
+        [self.bd_indexPathHeightCache invalidateAllHeightCache];
+        
+    }
+    
+    [self bd_insertSections:sections withRowAnimation:animation];
+
+}
+
+- (void)bd_deleteSections:(NSIndexSet *)sections withRowAnimation:(UITableViewRowAnimation)animation
+{
+    if (self.bd_indexPathHeightCache.automaticallyInvalidateEnabled == YES) {
+
+        [self.bd_indexPathHeightCache invalidateAllHeightCache];
+    }
+    
+    [self bd_deleteSections:sections withRowAnimation:animation];
+}
+
+- (void)bd_reloadSections:(NSIndexSet *)sections withRowAnimation:(UITableViewRowAnimation)animation{
+    
+    if (self.bd_indexPathHeightCache.automaticallyInvalidateEnabled == YES) {
+
+        [self.bd_indexPathHeightCache invalidateAllHeightCache];
+    }
+    
+    [self bd_reloadSections:sections withRowAnimation:animation];
+}
+
+
+- (void)bd_moveSection:(NSInteger)section toSection:(NSInteger)newSection{
+    
+    if (self.bd_indexPathHeightCache.automaticallyInvalidateEnabled == YES) {
+
+        [self.bd_indexPathHeightCache invalidateAllHeightCache];
+        
+    }
+    
+    [self bd_moveSection:section toSection:newSection];
+}
+
+- (void)bd_insertRowsAtIndexPaths:(NSArray<NSIndexPath *> *)indexPaths withRowAnimation:(UITableViewRowAnimation)animation
+{
+    if (self.bd_indexPathHeightCache.automaticallyInvalidateEnabled == YES) {
+
+        [self.bd_indexPathHeightCache invalidateAllHeightCache];
+    
+    }
+    
+    [self bd_insertRowsAtIndexPaths:indexPaths withRowAnimation:animation];
+}
+
+- (void)bd_deleteRowsAtIndexPaths:(NSArray<NSIndexPath *> *)indexPaths withRowAnimation:(UITableViewRowAnimation)animation
+{
+    if (self.bd_indexPathHeightCache.automaticallyInvalidateEnabled == YES) {
+        
+        [self.bd_indexPathHeightCache invalidateAllHeightCache];
+        
+    }
+}
+
+- (void)bd_reloadRowsAtIndexPaths:(NSArray<NSIndexPath *> *)indexPaths withRowAnimation:(UITableViewRowAnimation)animation
+{
+    if (self.bd_indexPathHeightCache.automaticallyInvalidateEnabled == YES) {
+
+        [self.bd_indexPathHeightCache invalidateAllHeightCache];
+        
+    }
+    
+    [self bd_reloadRowsAtIndexPaths:indexPaths withRowAnimation:animation];
+}
+
+- (void)bd_moveRowAtIndexPath:(NSIndexPath *)indexPath toIndexPath:(NSIndexPath *)newIndexPath
+{
+    
+    if (self.bd_indexPathHeightCache.automaticallyInvalidateEnabled == YES) {
+    
+        [self.bd_indexPathHeightCache invalidateAllHeightCache];
+        
+    }
+    
+    [self bd_moveRowAtIndexPath:indexPath toIndexPath:newIndexPath];
+}
+
+
 /*
  * Hook delegate Method
  */
@@ -83,8 +212,11 @@
         self.estimatedRowHeight = 44;
     }
     
+    self.bd_indexPathHeightCache.automaticallyInvalidateEnabled = YES;
+
     [self hookDelegate];
 }
+
 
 - (void)hookDelegate{
     
@@ -153,6 +285,8 @@
     if (!cache) {
         
         cache = [BDIndexPathHeightCache new];
+        
+        cache.automaticallyInvalidateEnabled = NO;
         
         objc_setAssociatedObject(self, _cmd, cache, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
         
